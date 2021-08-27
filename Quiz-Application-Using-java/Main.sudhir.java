@@ -4,6 +4,27 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+*/
+  it will crate a frame to start the game
+  |------------------------------------|
+  |                                    |
+  |                                    |
+  |                                    |
+  |                                    |
+  |                                    |
+  |                                    |
+  |          |------------|            |            
+  |          | start quiz |            |
+  |          |            |            |
+  |          |------------|            |
+  |                                    |
+  |                                    |
+  |                                    |
+  |                                    |
+  |                                    |
+  |                                    |
+  --------------------------------------
+  */
 
 public class Main extends JFrame {
 
