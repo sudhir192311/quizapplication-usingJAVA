@@ -12,7 +12,9 @@ import javax.swing.JTextField;
 import javax.swing.Timer;
 
 public class Quiz extends JFrame implements ActionListener {
-
+*/
+ @ here all qun are set by the owener(sudhir)
+*/
   String[] questions = { "Who is the prime minister of India ?", "What is Java ?", "Who is the CEO of Google ?",
       "To become an Indian citizen, which of the following is not a condition?",
       "Vande Mataram, the nationalist song, written by Vankim Chandra Chatterjee is a part of the book",
@@ -52,6 +54,9 @@ public class Quiz extends JFrame implements ActionListener {
       "Who dubbed the ‘King of Pop’, which artist released the album Thriller, which went on to be the bestselling album of all time?",
       "Which country is building 'Mars Science City' to develop technology to colonize Mars?",
       "The first European to reach India by sea was", "Where is the world’s oldest university?" };
+  /*
+  @ all qsns possible four option 
+  */
 
   String[][] options = { { "Manmohan Singh", "Narendra Modi", "Pratibha Patil", "Amit Shah" },
       { "Framework", "Programming Language", "Coffee", "All of the above" },
@@ -94,6 +99,9 @@ public class Quiz extends JFrame implements ActionListener {
       { "Yahoo", "Facebook", "Google", "Amazon" }, { "Madonna", "Michael Jackson", "Justin Bieber", "Taylor Swift" },
       { "USA", "UAE", "China", "Qatar" }, { "Christopher Columbus", "Marco Polo", "Vasco da Gama", "John Cabot" },
       { "Fez Morocco", "Harvard University", "Oxford University", "Nalanda University" } };
+  /*
+  @all the correct option set by the owner(sudhir)
+  */
 
   char[] answers = { 'B', 'B', 'A', 'C', 'C', 'B', 'A', 'B', 'D', 'C', 'D', 'C', 'B', 'B', 'A', 'B', 'D', 'A', 'A', 'D',
       'A', 'B', 'C', 'B', 'C', 'C', 'B', 'A', 'C', 'A', 'C', 'C', 'B', 'B', 'D', 'C', 'A', 'A', 'C', 'A', 'A', 'C', 'B',
@@ -129,6 +137,35 @@ public class Quiz extends JFrame implements ActionListener {
       displayAnswer();
     }
   });
+  */
+    @ another frame will be create for the game 
+     
+      -------------------------------------------                                        
+      |          QUESTION NO                    |
+      |                                         |
+      |                                         |
+      | QUESTION !                              |    
+      |                                         |
+      |  OPTION !                               |
+      |   A    option 1                         |
+      |                                         |
+      |                                         |
+      |   B    option 2                         |
+      |                                         |
+      |                                         |
+      |   C    option 3                         |
+      |                                         |
+      |                                         | 
+      |   D    option 4                         |
+      |                                         |
+      |                               END TEST  |
+      |                                         |
+      |                              --------   |
+      |                               TIMER     |
+      |                              --------   |
+       ------------------------------------------                                    
+      
+      
 
   public Quiz() {
     setLayout(null);
